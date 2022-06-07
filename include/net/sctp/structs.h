@@ -1988,7 +1988,7 @@ struct sctp_association {
 
 	/* ADDIP Section 5.2 Upon reception of an ASCONF Chunk.
 	 *
-	 * This is needed to implement itmes E1 - E4 of the updated
+	 * This is needed to implement items E1 - E4 of the updated
 	 * spec.  Here is the justification:
 	 *
 	 * Since the peer may bundle multiple ASCONF chunks toward us,

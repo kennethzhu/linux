@@ -218,7 +218,7 @@ struct pool_workqueue {
 	 * in pwq->nr_active and all work items in pwq->inactive_works are
 	 * marked with WORK_STRUCT_INACTIVE.  But not all WORK_STRUCT_INACTIVE
 	 * work items are in pwq->inactive_works.  Some of them are ready to
-	 * run in pool->worklist or worker->scheduled.  Those work itmes are
+	 * run in pool->worklist or worker->scheduled.  Those work items are
 	 * only struct wq_barrier which is used for flush_work() and should
 	 * not participate in pwq->nr_active.  For non-barrier work item, it
 	 * is marked with WORK_STRUCT_INACTIVE iff it is in pwq->inactive_works.

@@ -121,7 +121,7 @@ The driver is to be configured via configfs. Each loaded component kernel
 object (see section 1.3) registers a subsystem with configfs, which is used to
 configure and establish communication pathways (links) to attached devices on
 the bus. To do so, the user has to descend into the component's configuration
-directory and create a new directory (child config itmes). The name of this
+directory and create a new directory (child config items). The name of this
 directory will be used as a reference for the link and it will contain the
 following attributes:
 
